@@ -1,0 +1,19 @@
+const badRequest = require('./codes/badRequest');
+const created = require('./codes/created');
+const forbidden = require('./codes/forbidden');
+const notFound = require('./codes/notFound');
+const serverError = require('./codes/serverError');
+const serviceUnavailable = require('./codes/serviceUnavailable');
+const success = require('./codes/success');
+const unauthorized = require('./codes/unauthorized');
+const validationError = require('./codes/validationError');
+
+module.exports.badRequest = badRequest;
+module.exports.created = created;
+module.exports.forbidden = forbidden;
+module.exports.notFound = notFound;
+module.exports.serverError = serverError;
+module.exports.serviceUnavailable = serviceUnavailable;
+module.exports.success = success;
+module.exports.unauthorized = unauthorized;
+module.exports.validationError = validationError;
